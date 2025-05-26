@@ -1,1 +1,6 @@
-# GitHub
+
+*.log
+Tmp/
+password
+test*
+!error*
