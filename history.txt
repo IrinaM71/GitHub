@@ -1,0 +1,372 @@
+    1  echo "My first file" >> fiele1.txt
+    2  echo "Hallo my friend!" >> file2.txt
+    3  > file3.txt
+    4  git init
+    5  ls -la
+    6  git status
+    7  git add file1.txt 
+    8  git add /Desktop/Linux/280225-wdm/.git/file1.txt   
+    9  git add .
+   10  git commit -m "The first damm thing lumpy"
+   11  git log
+   12  git status
+   13  git init
+   14  echo "test file git" >> file.txt
+   15  echo "Hallo! I'm new to git" >>file.txt
+   16  git init
+   17  git status
+   18  ls -la
+   19  git status
+   20  git add file.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "Erste Probe"
+   25  git status
+   26  git log
+   27  ls -la
+   28  git remote -v
+   29  echo "# git_intro" >> README.md
+   30  git init
+   31  git add README.md
+   32  git commit -m "first commit"
+   33  git branch -M main
+   34  git remote add origin git@github.com:IrinaM71/git_intro.git
+   35  git push -u origin main
+   36  git remote add origin git@github.com:IrinaM71/git_intro.gi
+   37  git push -u origin main
+   38  ls -la
+   39  git init
+   40  git add .
+   41  git commit -m "Added photo"
+   42  gitn branch -M main 
+   43  gitn branch -m main 
+   44  git branch -M main 
+   45  git remote add origin git@github.com:IrinaM71/git_intro.git
+   46  git push -u origin main
+   47  echo "homework 10" >> file.txt
+   48  git init
+   49  git status
+   50  git add file.txt
+   51  git status
+   52  git commit -m "Homework 10"
+   53  git log
+   54  git log
+   55  git remote -v
+   56  git remote add origin git@github.com:IrinaM71/git-branch.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  git checkout -b Gitignore
+   60  git add https://github.com/aliaskov/bashscripts/blob/master/.gitignore 
+   61  echo "https://github.com/aliaskov/bashscripts/blob/master/.gitignore" >> github.txt
+   62  git add github.txt
+   63  git commit -m "Add file"
+   64  git log
+   65  git push --all
+   66  nano song.txt
+   67  ды -дф
+   68  ды -дфla -la
+   69  ls -la
+   70  git status
+   71  git add song.txt
+   72  git status
+   73  git commit -m"Add new file song.txt"
+   74  git log
+   75  git branch TestBranch
+   76  git branch -v
+   77  git checkout TestBranch
+   78  git branch -v
+   79  ls -la
+   80  >Test.txt
+   81  ls -la
+   82  git status
+   83  git add .
+   84  git commit -m "File.txt"
+   85  ls -la
+   86  git checkout main
+   87  ls -la
+   88  git checkout -b NewBranch
+   89  git branch -v
+   90  git log
+   91  git branch -d NewBranch
+   92  git checkout main
+   93  git branch -d NewBranch
+   94  git checkout TestBranch
+   95  nano song.txt
+   96  git commit -am "Add Bla Bla in song"
+   97  git status
+   98  cd ..
+   99  git status
+  100  ls -la
+  101  cd /280225-wdm
+  102  cd /Desktop/Linux/280225-wdm
+  103  cd /Desktop/Linux/280225-wdm/
+  104  node -v
+  105  npm -v
+  106  npm install -g sass
+  107  git pull
+  108  git checkout -b Feature
+  109  ls -la
+  110  git checkout main
+  111  ls -la
+  112  nano .gitignore
+  113  git status
+  114  git add .
+  115  git commit -m "Add file gitignore"
+  116  git status
+  117  git push
+  118  git status
+  119  ls -la
+  120  git clone git@github.com:IrinaM71/GitHab.git
+  121  ls -la
+  122  cd GitHub/
+  123  cd /GitHub
+  124  cd /GitHub/
+  125  #!/bin/bash
+  126  USER="Irina"
+  127  date
+  128  echo "Hallo $USER!"
+  129  pwd
+  130  ps -ef | grep "[b]ioset" | wc -l 
+  131  awk '{print $2}' /etc
+  132  #There is no infirmation abot rights in the passwd file
+  133  echo "Done"
+  134  ssh ec2-user@linux.itcareerhub.de
+  135  ls -la
+  136  cd /Desktop/Linux/
+  137  cd /Desktop/Linux
+  138  C:\Users\Mai\Desktop\Linux
+  139  cd C:\Users\Mai\Desktop\Linux
+  140  ls -la
+  141  cd C:\Users\Mai\Desktop\Linux
+  142  ls -loa
+  143  git clone 
+  144  git clone git@github.com:IrinaM71/learning_git.git
+  145  ls -la
+  146  ls -la learning_git/
+  147  cd 280225-wdm/
+  148  git branch -a
+  149  cd 280225-wdm/
+  150  pwd
+  151  ды -дф
+  152  ls -la
+  153  git checkout -b Feature
+  154  git branch -v
+  155  echo "My research"" >> .gitignore
+  156  git init
+  157  ls -la
+  158  git branch -a
+  159  ls -la
+  160  cd /Desktop/Linux/
+  161  cd C:\Users\Mai\Desktop\Linux
+  162  git branch -v
+  163  ls -la
+  164  git branch -a
+  165  git checkout Head
+  166  git checkout HEAD
+  167  git checkout main
+  168  cd 280225-wdm/
+  169  echo "А вот и я" > Irina_Mai.txt
+  170  git init
+  171  git status
+  172  git add Irina_Mai.txt
+  173  git commit -m "Homework 14"
+  174  git push
+  175  git remote -v
+  176  git push
+  177  git push https://github.com/it-career-hub/learning_git
+  178  git push --set-upstream https://github.com/it-career-hub/learning_git
+  179   git push --set-upstream https://github.com/it-career-hub/learning_git master
+  180  #!/bin/bash
+  181  # 
+  182  set -e
+  183  DATE=$(date +%d.%m.%y)
+  184  mkdir -p /opt/280225-wdm/Irina_Mai/scriptfiles
+  185  git remote add origin git@github.com:IrinaM71/GitHub.git
+  186  git branch -M main
+  187  git push -u origin main
+  188  ls -la
+  189  ls -la
+  190  git remote add origin git@github.com:IrinaM71/GitHub.git
+  191  git branch -M main
+  192  git push -u origin main
+  193  git remote add origin git@github.com:IrinaM71/GitHub.git
+  194  cd 280225-wdm
+  195  ls -la
+  196  cd ..
+  197  git clone
+  198  git clone git remote add origin git@github.com:IrinaM71/GitHub.git
+  199  echo "# GitHub" >> .gitignore
+  200  git init
+  201  git add .gitignore
+  202  git commit -m "Homework 12"
+  203  git remote add origin git@github.com:IrinaM71/GitHub.git
+  204  git branch -M main
+  205  git push -u origin main
+  206  git checkout -b feature
+  207  nano .gitignore
+  208  ls -la
+  209  echo "Irina Mai" >> README.md
+  210  git init
+  211  ls -la
+  212  git status
+  213  git add .gitignore
+  214  git add README.md
+  215  git commit -m"Addet 2 files (.gitignore and README.md)"
+  216  git log
+  217  git push
+  218  git remote add origin git@github.com:IrinaM71/GitHub.git
+  219  git push -u origin main
+  220  ls -la 
+  221  git push -u origin feature
+  222  git commit --amend -m "changed the comment using the command 'git commit --amend'"
+  223  git remote add origin git@github.com:IrinaM71/GitHub.git
+  224  git push
+  225  git pull
+  226  git log
+  227  git branch main
+  228  git checkout main
+  229  git merge feature
+  230  ls -la
+  231  git branch -v
+  232  git checkout feature
+  233  git push
+  234  git checkout main
+  235  rm history-2.txt
+  236  fm history.txt
+  237  rm history.txt
+  238  ls -la
+  239  history > history.txt
+  240  ls -la
+  241  git push
+  242  git status
+  243  git init history.txt
+  244  rm file.txt file1.txt 
+  245  ls -la
+  246  rm file2.txt file3.txt
+  247  git status
+  248  git init history.txt
+  249  cd /mkdir
+  250  git@github.com:IrinaM71/GitHub.git
+  251  ls -la
+  252  history
+  253  ls -la
+  254  nano .gitignore
+  255  ls -la
+  256  git status
+  257  git init .gitignore
+  258  git add .gitignore
+  259  git status
+  260  git commit -m "Addet file .gitignore"
+  261  git remote add origin git@github.com:IrinaM71/GitHub.git
+  262  git push -u origin main
+  263  ls -la
+  264  git checkout -b feature
+  265  git checkout feature
+  266  ls -la
+  267  echo "Homework 12" > README.md
+  268  ls -la
+  269  git status
+  270  rm -rf .gitignore.txt history.txt
+  271  git status
+  272  ls -la
+  273  rm -rf (GitHub) 
+  274  cd ..
+  275  git checkout main
+  276  cd ..
+  277  rm -rf GitHub
+  278  ls -la
+  279  cd /Desktop/Linux
+  280  cd /Desktop/Linux/
+  281  cd /Desktop/Linux/GitHub
+  282  ls -la
+  283  cd Desktop/Linux/learning_git/280225-wdm
+  284  cd ..
+  285  cd ..
+  286  cd /Desktop/Linux/learning_git/280225-wdm
+  287  cd /Desktop/Linux/learning_git/280225-wdm/
+  288  ды -дф
+  289  ls -la
+  290  rm -rf .gitignore.txt
+  291  ls -la
+  292  rm -rf history.txt
+  293  ls -la
+  294  cd ..
+  295  cd /Desktop/Linux
+  296  ls -la
+  297  cd /Desktop/Linux/
+  298  ls -la
+  299  git remote -v
+  300  cd 280225-wdm/
+  301  ls-la
+  302  ls -la
+  303  rm -rf .git
+  304  git push
+  305   git push --set-upstream origin Irina_mai
+  306  git checkout master
+  307  git branch -v
+  308  git checkout -b Irina_mai
+  309  ls -la
+  310  cd 280225-wdm/
+  311  echo "Hello from Irina" >> Irina-Mai.txt
+  312  git status
+  313  git add Irina-Mai.txt
+  314  git commit -m " addet nuw file"
+  315  git push
+  316   git push --set-upstream origin mai-HW16
+  317   git push --set-upstream origin mai-HW16
+  318  git remote -v
+  319  git checkout main
+  320  git branch -v
+  321  git checkout main
+  322  git checkout Irina_mai 
+  323  push
+  324  git push
+  325  ls -la
+  326  echo "Addet song" >> Irina-Mai.txt 
+  327  git commit -am
+  328  git commit -am "Addet text"
+  329  git add .
+  330  git commit -m "Addet text"
+  331  git push
+  332  cd ..
+  333  cd ~/Desktop/Linux 
+  334  git clone git@github.com:IrinaM71/learning_git.git
+  335  ls -la
+  336  cd ~/Desktop/Linux/learning_git
+  337  ls -la
+  338  cd ~/Desktop/Linux/learning_git/280225-wdm
+  339  ls -la
+  340  git status
+  341  git log
+  342  git remote -v git@github.com:IrinaM71/learning_git.git
+  343  git push
+  344  git push git@github.com:IrinaM71/learning_git.git
+  345  git push --set-upstream git@github.com:IrinaM71/learning_git.git master
+  346  ls -la
+  347  git@github.com:IrinaM71/GitHub.git
+  348  git clone git@github.com:IrinaM71/GitHub.git
+  349  ls -la
+  350  cd ~/Desktop/Linux/GitHub
+  351  git checkout -b feature
+  352  ls -la
+  353  git status
+  354  cat .gitignore
+  355  date >> .gitignore
+  356  cat .gitignore
+  357  git status
+  358  git add .gitignore
+  359  git status
+  360  git commit -m "Addet the date to the file gitignore"
+  361  echo "Выполняю домашнюю работу 12" >> README.md
+  362  add .
+  363  git add .
+  364  git commit -m " lkjhgjhg"
+  365  git commit --amend -m "Added  the date to the file README.md with the command git commit --amend"
+  366  git push
+  367  git push --set-upstream origin feature
+  368  cit checkout main
+  369  git branch -v
+  370  git checkout main
+  371  git merge feature
+  372  history > history.txt
